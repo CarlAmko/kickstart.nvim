@@ -133,7 +133,7 @@ vim.opt.expandtab = true
 vim.opt.signcolumn = 'yes'
 
 -- Decrease update time
-vim.opt.updatetime = 15
+vim.opt.updatetime = 150
 
 -- Decrease mapped sequence wait time
 -- Displays which-key popup sooner
