@@ -120,7 +120,7 @@ vim.opt.breakindent = true
 
 -- Save undo history
 vim.opt.undofile = true
-vim.opt.undodir = os.getenv 'HOME' .. './vim/undodir'
+vim.opt.undodir = os.getenv 'HOME' .. '/vim/undodir'
 
 -- Case-insensitive searching UNLESS \C or one or more capital letters in the search term
 vim.opt.ignorecase = true
@@ -859,8 +859,8 @@ require('lazy').setup({
   --  Uncomment any of the lines below to enable them (you will need to restart nvim).
   --
   -- require 'kickstart.plugins.debug',
-  -- require 'kickstart.plugins.indent_line',
-  -- require 'kickstart.plugins.lint',
+  require 'kickstart.plugins.indent_line',
+  -- require 'kickstart.plugins.int',
 
   -- NOTE: The import below can automatically add your own plugins, configuration, etc from `lua/custom/plugins/*.lua`
   --    This is the easiest way to modularize your config.
